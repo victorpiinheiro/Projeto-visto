@@ -1,10 +1,10 @@
-import NavBar from '../../components/Header/NavBar';
 import styles from './LeftPanel.module.css';
+import NavBar from '../../components/Header/NavBar';
+import Button from '../../components/Button/Button';
 import { FaArrowRightLong } from "react-icons/fa6";
 
-import logo from '../../images/S01/logo1.png'
-import PrintVideo from '../../images/S01/printVideo.png'
-import Button from '../../components/Button/Button'
+import logo from '../../images/S01/logo1.png';
+import PrintVideo from '../../images/S01/printVideo.png';
 
 
 export default function LeftPanel() {
@@ -62,14 +62,14 @@ export default function LeftPanel() {
       </div>
 
 
-<div className={styles.dadosContainer}>
-  {dados.map((item, index) => (
-  <div key={index} className={styles.dadosItem}>
-    <h3 className={styles.qtde}>{item.qtde}</h3>
-    <p className={styles.descricao}>{item.descricao}</p>
-  </div>
-))}
-</div>
+      <div className={styles.dadosContainer}>
+        {dados.map((item, index) => (
+          <div key={index} className={styles.dadosItem}>
+            <h3 className={styles.qtde}>{item.qtde}</h3>
+            <p className={styles.descricao}>{item.descricao}</p>
+          </div>
+        ))}
+      </div>
 
     </div>
   )
