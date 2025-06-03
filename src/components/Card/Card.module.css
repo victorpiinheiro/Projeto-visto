@@ -1,0 +1,77 @@
+.card {
+  margin-top: 50px;
+border: 1px solid #e0dfdf;
+  width: 380px;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.card img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.planButtons {
+  display: flex;
+  margin-top: 15px;
+  gap: 20px;
+}
+
+.descriptionCard {
+  font-size: 20px;
+  padding: 10px 0 10px 0;
+  color: #000000;
+}
+
+.cardInfo {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 50px;
+  border-bottom: 1px solid #cecece;
+  
+}
+
+.infoAtendimento h3, .infoTempo h3 {
+  color: #232323
+}
+.infoAtendimento p, .infoTempo p {
+  padding: 10px 0 10px 0;
+  color: #8D8D8D
+}
+
+.cardValores{
+  padding-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cardValores p {
+  color: #8D8D8D;
+  padding-bottom: 10px;
+}
+.cardValores h3 {
+ font-size: 30px;
+}
+
+.cardContratar {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15px;
+  
+  
+}
+
+@media (max-width: 600px) {
+  .card {
+    margin-top: 0;
+    width: 100%;
+  }
+
+  
+}

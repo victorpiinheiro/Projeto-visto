@@ -1,0 +1,71 @@
+.container {
+  margin-top: 30px;
+}
+
+.cardTop, .cardBotton {
+    display: flex;
+  justify-content: space-between;
+  background: #F7F7F7;
+  padding: 2px;
+}
+
+.titleTop {
+  
+  width: 65%;
+ 
+}
+
+.titleTop h1, .titleBotton h1 {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 52px;
+}
+
+.titleTop h1 {
+  padding-left: 50px;
+  padding-top: 30px;
+}
+
+.iconTop, .iconBotton {
+  
+  width: 35%;
+  height: 150px;
+  
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-right: 40px;
+
+ position: relative;
+}
+
+.icon {
+ 
+  font-size: 25px;
+  transform: rotate(30deg);
+  color: #232323;
+  min-width: 35px;
+  min-height: 40px;
+  width: fit-content;
+  background: #FFFFFF;
+  padding: 5px;
+  border-radius: 8px;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.8);
+  
+}
+
+@media(max-width: 762px) {
+  .cardTop h1, .cardBotton h1 {
+    font-size: 18\px;
+  }
+
+  .icon{
+    font-size: 15px;
+    max-width: 10px;
+    max-height: 10px;
+  }
+}
+
+
+

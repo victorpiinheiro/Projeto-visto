@@ -1,0 +1,33 @@
+.section01-container{
+  width: 100%;
+ display: flex;
+
+gap: 20px;
+}
+
+.left-panel {
+  flex: 1;                
+  padding: 20px;          
+}
+
+.right-panel {
+  max-width: 762px;  
+  width: 100%;         
+  overflow: hidden;
+}
+
+@media (max-width: 992px) {
+  .section01-container {
+    flex-direction: column; 
+  }
+
+   .right-panel {
+    width: 100%;
+    height: auto;
+  }
+
+  .responsive-image {
+    max-height: 500px; 
+  
+  }
+}

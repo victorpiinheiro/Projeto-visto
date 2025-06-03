@@ -1,0 +1,55 @@
+
+.image-container {
+  position: relative;
+  width: calc(100% - 40px); 
+  margin: 20px auto 0; 
+}
+
+.responsive-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px; 
+}
+
+
+.text-image {
+  position: absolute;
+  bottom: 40px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  color: white; 
+  padding: 0 50px;
+  box-sizing: border-box;
+  background-color: transparent !important; 
+}
+
+.text-image h1 {
+  font-size: 2.7rem;
+  text-align: left;
+  
+  margin-bottom: 10px;
+  
+}
+
+.text-image p {
+  font-size: 1.2rem;
+   text-align: left;
+ 
+}
+
+@media (max-width: 600px) {
+  .text-image {
+    bottom: 20px;  
+    padding: 0 15px; 
+  }
+  
+  .text-image h1 {
+    font-size: 1.6rem;
+  }
+  
+  .text-image p {
+    font-size: 1rem; 
+  }
+}

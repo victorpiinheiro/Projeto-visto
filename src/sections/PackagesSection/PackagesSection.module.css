@@ -1,0 +1,58 @@
+.container {
+  margin-top: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+button {
+  margin-bottom: 20px;
+}
+
+.title-top{
+  display: flex;
+  justify-content: space-between;
+}
+
+.text-top h1 {
+  color: #232323;
+  font-size: 60px;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+}
+
+
+.cardContainer {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .cardContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .buttons {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .title-top {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .text-top h1 {
+    font-size: 20px;
+  }
+
+  .buttons {
+    display: flex;
+    
+    flex-direction: row;
+  }
+}
