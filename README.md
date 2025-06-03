@@ -51,7 +51,6 @@ Acesse o site aqui: [https://vistobr.netlify.app/](https://vistobr.netlify.app/)
     npm install
 
   4. Rode o servidor de desenvolvimento:
-  
     npm run dev
 
     Abra o navegador no endereço exibido no terminal (normalmente http://localhost:5173)
