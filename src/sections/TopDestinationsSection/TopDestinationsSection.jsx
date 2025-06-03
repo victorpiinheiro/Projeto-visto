@@ -34,7 +34,7 @@ export default function TopDestinationsSection() {
           <h2>Destinos Mais Procurados</h2>
         </div>
         <div className={styles.contentSubTitle}>
-          <h6>Confira os destinos mais procurados por nossos clientes nos ultimos meses, qualqueria o seu novo destino?</h6>
+          <h6>Confira os destinos mais procurados por nossos clientes nos ultimos meses, qual que seria o seu novo destino?</h6>
         </div>
 
         <div className={styles.bottomBorderEffect}>
