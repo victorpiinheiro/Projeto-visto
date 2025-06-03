@@ -1,5 +1,5 @@
 import styles from './RigthPanel.module.css'
-import rigthPhoto from '../../images/S01/RigthFoto.png'
+import rigthPhoto from '../../images/S01/rigthFoto.png'
 
 
 import Button from '../../components/Button/Button'
