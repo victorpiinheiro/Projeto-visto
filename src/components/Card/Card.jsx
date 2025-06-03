@@ -1,4 +1,4 @@
-// components/Card/Card.jsx
+
 import styles from './Card.module.css';
 import Button from '../Button/Button';
 
