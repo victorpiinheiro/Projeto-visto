@@ -1,12 +1,62 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Projeto VISTO BR
 
-Currently, two official plugins are available:
+Este projeto foi desenvolvido como um **teste técnico para vaga de Front-End Júnior**.  
+Trata-se de uma aplicação React utilizando Vite, com foco em boas responsividade, organização de código e deploy na nuvem.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Veja o site no ar: [https://vistobr.netlify.app/](https://vistobr.netlify.app/)
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## Stack utilizada
+
+-  React
+-  Vite
+-  JavaScript
+- CSS3 
+- Netlify
+
+
+
+
+## Funcionalidades
+
+- Layout responsivo para desktop e mobile  
+- Carregamento otimizado de imagens  
+- Navegação simples com componentes React  
+- Estrutura modular de código
+
+
+---
+
+## Link do projeto no ar
+
+Acesse o site aqui: [https://vistobr.netlify.app/](https://vistobr.netlify.app/)
+
+---
+
+
+## Como rodar o projeto localmente
+
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/victorpiinheiro/Projeto-visto.git
+
+  2. Entre na pasta do projeto:
+    cd Projeto-visto
+
+  3. Instale as dependências:
+    npm install
+
+  4. Rode o servidor de desenvolvimento:
+    npm run dev
+
+    Abra o navegador no endereço exibido no terminal (normalmente http://localhost:5173)
+
+
+## Contato
+
+GitHub: https://github.com/victorpiinheiro
+
+LinkedIn: https://www.linkedin.com/in/victorpinheiro-dev
+
