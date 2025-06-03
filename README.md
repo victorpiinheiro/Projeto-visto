@@ -40,6 +40,7 @@ Acesse o site aqui: [https://vistobr.netlify.app/](https://vistobr.netlify.app/)
 
 1. Clone este repositório:
    ```bash
+   
    git clone https://github.com/victorpiinheiro/Projeto-visto.git
 
   2. Entre na pasta do projeto:
@@ -53,9 +54,9 @@ Acesse o site aqui: [https://vistobr.netlify.app/](https://vistobr.netlify.app/)
   4. Rode o servidor de desenvolvimento:
 
     npm run dev
-    
 
-    Abra o navegador no endereço exibido no terminal (normalmente http://localhost:5173)
+  5. Abra o navegador no endereço exibido no terminal (normalmente http://localhost:5173)
+    
 
 
 ## Contato
