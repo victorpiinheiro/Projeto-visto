@@ -2,7 +2,7 @@
 # Projeto VISTO BR
 
 Este projeto foi desenvolvido como um **teste técnico para vaga de Front-End Júnior**.  
-Trata-se de uma aplicação React utilizando Vite, com foco em boas responsividade, organização de código e deploy na nuvem.
+Trata-se de uma aplicação React utilizando Vite, com foco em responsividade, organização de código e deploy na nuvem.
 
 Veja o site no ar: [https://vistobr.netlify.app/](https://vistobr.netlify.app/)
 
