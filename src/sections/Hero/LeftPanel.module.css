@@ -103,6 +103,10 @@
   display: flex;
 }
 
+.arrow:hover {
+  cursor: pointer;
+}
+
 .dadosContainer {
   display: flex;
   justify-content: space-between;
