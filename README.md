@@ -17,16 +17,6 @@ Veja o site no ar: [https://vistobr.netlify.app/](https://vistobr.netlify.app/)
 - Netlify
 
 
-
-
-## Funcionalidades
-
-- Layout responsivo para desktop e mobile  
-- Carregamento otimizado de imagens  
-- Navegação simples com componentes React  
-- Estrutura modular de código
-
-
 ---
 
 ## Link do projeto no ar
