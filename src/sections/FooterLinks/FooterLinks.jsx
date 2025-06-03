@@ -42,9 +42,9 @@ export default function FooterLinks() {
       </div>
 
       <div className={styles.rigthLinks}>
-        {links.map((section, index) => (
-          <div className={styles.titleLink}>
-            <h4 key={index}>{section.title}</h4>
+        {links.map((section) => (
+          <div className={styles.titleLink} key={section.title}>
+            <h4>{section.title}</h4>
             <ul>
               {section.links.map((link, idx) => (
                 <li key={idx}>
