@@ -3,7 +3,7 @@ import styles from './LeftPanel.module.css';
 import { FaArrowRightLong } from "react-icons/fa6";
 
 import logo from '../../images/S01/logo1.png'
-import PrintVideo from '../../images/S01/PrintVideo.png'
+import PrintVideo from '../../images/S01/printVideo.png'
 import Button from '../../components/Button/Button'
 
 
