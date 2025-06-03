@@ -31,10 +31,10 @@ export default function TopDestinationsSection() {
           />
         </div>
         <div className={styles.contentTitle}>
-          <h2>Destinos Mais Procurados</h2>
+          <h2>Destinos mais procurados</h2>
         </div>
         <div className={styles.contentSubTitle}>
-          <h6>Confira os destinos mais procurados por nossos clientes nos ultimos meses, qual que seria o seu novo destino?</h6>
+          <h6>Confira os destinos mais procurados por nossos clientes nos últimos meses, qual seria o seu novo destino?</h6>
         </div>
 
         <div className={styles.bottomBorderEffect}>

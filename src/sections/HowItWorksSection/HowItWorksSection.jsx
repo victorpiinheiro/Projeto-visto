@@ -10,7 +10,7 @@ export default function HowItWorksSection() {
       <Button color={'yellow'} children={'Veja como funciona'} />
       <div className={styles['text-top']}>
         <div className={styles.title}>
-          <h1>Sua tranquilidade nao tem preço!</h1>
+          <h1>Sua tranquilidade não tem preço!</h1>
         </div>
 
         <div className={styles.description}>
@@ -30,7 +30,7 @@ export default function HowItWorksSection() {
           <h1>Processo de Entrevista</h1>
           <p>+ Leia mais</p>
 
-          <h1>Etapa inicial</h1>
+          <h1>Entrega de Documentos</h1>
           <p>+ Leia Mais</p>
         </div>
 

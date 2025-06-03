@@ -15,7 +15,7 @@ export default function RigthPanel(){
 
       <div className={styles['text-image']}>
       <h1>Realize o seu sonho com a ajuda da Tirar Visto!</h1>
-      <p>Com um serviço profissional, você não terá dor de cabeça para todo o processo do visto e entevietar no consulado</p>
+      <p>Com um serviço profissional, você não terá dor de cabeça para todo o processo do visto e entrevistas no consulado.</p>
       </div>
     </div>
   )
