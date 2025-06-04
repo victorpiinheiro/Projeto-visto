@@ -11,37 +11,54 @@ import CardPhoto03 from '../../images/S05/card03.png'
 
 
 export default function PackagesSection() {
-const planos = [
+  const planos = [
   {
     image: CardPhoto01,
-    plan1: 'Basic',
-    plan2: 'Premium',
-    titulo: 'Passaporte',
-    atendimento: 'On-line',
-    tempo: '45 dias',
-    preco: 'R$ 890,00'
+    planBasic: {
+      titulo: 'Passaporte',
+      atendimento: 'On-line',
+      tempo: '45 dias',
+      preco: 'R$ 890,00'
+    },
+    planPremium: {
+      titulo: 'Passaporte Premium',
+      atendimento: 'Presencial + Online',
+      tempo: '30 dias',
+      preco: 'R$ 1.290,00'
+    },
   },
   {
     image: CardPhoto02,
-    plan1: 'Basic',
-    plan2: 'Premium',
-    titulo: 'Passaporte + Visto',
-    atendimento: 'On-line',
-    tempo: '25 dias',
-    preco: 'R$ 1.290,00'
+    planBasic: {
+      titulo: 'Passaporte + Visto',
+      atendimento: 'On-line',
+      tempo: '25 dias',
+      preco: 'R$ 1.190,00'
+    },
+    planPremium: {
+      titulo: 'Passaporte + Visto Premium',
+      atendimento: 'Presencial + Assessoria Completa',
+      tempo: '15 dias',
+      preco: 'R$ 1.790,00'
+    },
   },
-{
+  {
     image: CardPhoto03,
-    plan1: 'Basic',
-    plan2: 'Premium',
-    titulo: 'Consultoria Completa',
-    atendimento: 'Presencial Completo',
-    tempo: '10 dias',
-    preco: 'R$ 1.890,00'
-  }
+    planBasic: {
+      titulo: 'Consultoria Completa',
+      atendimento: 'On-line',
+      tempo: '10 dias',
+      preco: 'R$ 1.490,00'
+    },
+    planPremium: {
+      titulo: 'Consultoria Completa Premium',
+      atendimento: 'Presencial Completo',
+      tempo: '05 dias',
+      preco: 'R$ 2.190,00'
+    },
+  },
+];
 
-
-]
 
   return (
     <div className={styles.container}>
@@ -67,14 +84,14 @@ const planos = [
       </div>
 
 
-<div className={styles.cardContainer}>
+      <div className={styles.cardContainer}>
 
-      {planos.map((plano, index) => (
-        <Card  key={index} {...plano} />
-      ))}
+        {planos.map((plano, index) => (
+          <Card key={index} planos={plano} />
+        ))}
       </div>
 
-      
+
 
     </div>
 
